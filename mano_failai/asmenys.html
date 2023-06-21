@@ -19,11 +19,30 @@ vel tu programuoji... kiek galima !!!
     </nav>
 </header>
 <main>
-    <asside>
-        <img src="img/1.jpg" alt="1" width="300" height="auto">
-        <img src="img/2.jpg" alt="2"width="300" height="auto">
-        <img src="img/3.jpg" alt="3"width="300" height="auto">
-    </asside>
+    <img src="img/1.jpg" alt="1" width="300" height="auto">
+    <form action="http://localhost/kazkas"method="post">
+<fieldset>
+    <label for="fn">Vardas</label>
+    <input name="firstname" type="text" id="fn" /><br><br>
+    <label for="sn">Pavarde</label>
+    <input name="secondname" type="text" id="sn" /><br><br>
+    <label for="el">el.pastas</label>
+    <input name="firstname" type="text" id="el" /><br><br>
+<label for="foto">nuotrauka</label>
+<select name="kategorija" id="foto">
+<option value="foto1">nespalvota1</option>
+<option value="foto2">nespalvota2</option>
+<option value="foto3">nespalvota3</option>
+<option value="kitos">nespalvota4</option>
+</select>
+<label for="KOMENTARAS"><br><br>KOMENTARAS</label><br><br>
+<textarea name="message" rows="5" cols="20" id="KOMENTARAS">
+`parasyk man zinute`
+</textarea><br><br>
+<button type="button" onclick="alert('pavyko!')">ATSAUKTI!</button>
+<input value="Siųsti" type="submit" />
+</fieldset>
+    </form>
     <p>
         <img src="img/3.jpg" alt="pagrindine foto"width="300" height="auto">
     Ką bendro turi žemės drebėjimai ir planetos paviršių pasiekiantys kosminiai spinduliai? Pasirodo, šį tą turi:
