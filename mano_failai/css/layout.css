@@ -1,0 +1,34 @@
+html, body {
+margin:5;
+padding:5;
+height:100%;
+}
+
+body{
+display:grid;
+align-content:space-between;
+}
+
+main{
+display: align-items: center; justify-content: center;
+}
+
+main aside, main section {
+float: left;
+}
+
+body>header{
+height: 75px;
+}
+
+body>header > * {
+float: left;
+}
+body > header > nav {
+floating: right;
+}
+
+body > footer {
+height: 75px;
+}
+

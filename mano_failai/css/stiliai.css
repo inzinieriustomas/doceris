@@ -1,0 +1,40 @@
+body {display:grid;
+    /*align-content:strech;/
+}
+
+body.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+
+body > header {padding: 10px;
+
+    background-color: #f2f2f2;
+    border-style: solid;
+    border-color: red;
+}
+body > main {padding: 10px;
+
+    background-color: #f2f2f2;
+    border-style: solid;
+    border-color: red;
+}
+
+aside {padding: 10px;
+
+    background-color: #f2f2f2;
+    border-style: solid;
+    border-color: red;
+    }
+
+header>h1{color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+.center {
+  text-align: center;
+body > footer {padding: 10px;
+
+    background-color: #f2f2f2;
+    border-style: solid;
+    border-color: red;
+    }
+
