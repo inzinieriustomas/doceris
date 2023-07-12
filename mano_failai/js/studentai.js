@@ -56,3 +56,22 @@ console.log('istaiga: ', studentai[4].istaiga,
 'vardas:'+ studentai[4].vardas,
 'pavarde:'+ studentai[4].pavarde,
 'pazymiai:'+ studentai[4].pazymiai);
+///////
+/////function kadaryti(){
+//alert("paspausk mane")
+//}
+//
+//elementas.onclick = kadaryti;
+//elementas.onclick = () => alert("paspausk2");
+//elementas.onclick = function(){alert("paspausk3");};///
+/////
+
+let belekokieskaiciai = Math.random();
+let prideti = belekokieskaiciai + 1;
+belekokieskaiciai = Math.random()*10;
+belekokieskaiciai = Math.floor(belekokieskaiciai)
+belekokieskaiciai = Math.round(belekokieskaiciai)
+belekokieskaiciai = Math.max(belekokieskaiciai)
+belekokieskaiciai = Math.min(belekokieskaiciai)
+console.log(belekokieskaiciai);
+console.log(prideti)
